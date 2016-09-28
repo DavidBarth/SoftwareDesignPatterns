@@ -13,13 +13,12 @@ namespace Filter_CriteriaPattern
             ArrayList feMalePersons = new ArrayList();
             foreach (Person p in persons)
             {
-                if (p.getGender().Equals("FEMALE")) { feMalePersons.Add(p); }
+                if (p.getGender().Equals("female")) { feMalePersons.Add(p); }
             }
 
             return feMalePersons;
         }
     }
 }
-    {
-    }
-}
+    
+

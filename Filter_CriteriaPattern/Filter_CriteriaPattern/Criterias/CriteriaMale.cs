@@ -13,7 +13,7 @@ namespace Filter_CriteriaPattern
             ArrayList malePersons = new ArrayList();
             foreach(Person p in persons)
             {
-                if (p.getGender().Equals("MALE")) { malePersons.Add(p); }
+                if (p.getGender().Equals("male")) { malePersons.Add(p); }
             }
 
             return malePersons;

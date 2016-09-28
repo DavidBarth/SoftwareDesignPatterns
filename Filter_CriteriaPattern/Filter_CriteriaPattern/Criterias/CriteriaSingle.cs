@@ -13,7 +13,7 @@ namespace Filter_CriteriaPattern
             ArrayList singlePersons = new ArrayList();
             foreach (Person p in persons)
             {
-                if (p.getMaritalStatus().Equals("SINGLE")) { singlePersons.Add(p); }
+                if (p.getMaritalStatus().Equals("single")) { singlePersons.Add(p); }
             }
 
             return singlePersons;

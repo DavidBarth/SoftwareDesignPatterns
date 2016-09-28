@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Filter_CriteriaPattern.Criterias
 {
-    class OrCriteria
+    class OrCriteria : ICriteria
     {
         private ICriteria criteria;
         private ICriteria otherCriteria;
