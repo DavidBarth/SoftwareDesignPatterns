@@ -1,7 +1,3 @@
-# DesignPatterns
-# is a folder wich contains patterns from the world of coding. 
-# Abstract factory pattern
-# Adapter pattern
-# Factory pattern
-# Filter pattern
-# Singleton pattern
+
+# Gang of Four design patterns 
+# A group of creational, structural, behavioural patterns implemented in C#
