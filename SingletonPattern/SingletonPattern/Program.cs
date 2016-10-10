@@ -20,8 +20,6 @@ namespace SingletonPattern
 
 			}
 
-			obj2.showMessage();
-
 		}
     }
 }
