@@ -10,8 +10,16 @@ namespace SingletonPattern
     {
         static void Main(string[] args)
         {
-            SingleObject obj = SingleObject.Instance;
-            obj.showMessage();
-        }
+			
+            SingleObject obj1 = SingleObject.Instance;
+			SingleObject obj2 = SingleObject.Instance;
+
+			if (obj1 == obj2)
+			{
+				Console.WriteLine("Objects are of the same instance!");
+
+			}
+
+		}
     }
 }
