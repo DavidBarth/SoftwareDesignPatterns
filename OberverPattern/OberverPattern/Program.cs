@@ -1,10 +1,6 @@
-﻿/* GoF Observer Pattern - Behavioural pattern
- * Stuctural code for demonstrating the Observer pattern,
- * in wich registered objects are notified of and updated with a state change.
- * 
- * One-to-many dependecny.
- * 
- * Real world application: registered investors get notified when stock changes value.
+﻿/* GoF Observer Structural pattern
+ * Stuctural code for demonstrating the Observer pattern
+ * in wich registered objects are notified of and updated with a state change
  * 
  * http://www.dofactory.com/net/observer-design-pattern
  * 
@@ -30,7 +26,6 @@ namespace OberverPattern
 
 			subject.SubjectState = "New state";
 			subject.Notify();
-
 
 		}
 
@@ -62,6 +57,7 @@ namespace OberverPattern
 			}
 		}
 	}
+
 
 	/// <summary>
 	/// Concrete subject class
